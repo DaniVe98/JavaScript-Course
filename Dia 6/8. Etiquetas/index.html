@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+    <title>Etiquetas</title>
+    <style background="red"></style>
+  </head>
+  <body>
+    <script>
+      let alto = 4;
+      let ancho = 3;
+
+      loopExterno:
+      for(y = 1; y <= alto; y++){
+        for(x = 1; x <= ancho; x++){
+          document.write(y + "." + x + "<br>");
+          if(y == 2 && x == 2){
+            break loopExterno;
+          }
+        }
+      }
+
+
+      // let miArray = [[2,4,5],[3,0,6],[9,4,7]];
+
+      // function testLoop() {
+      // miEtiqueta:
+      //     for (let array of miArray){
+      //         for (let numero of array) {
+      //             console.log(numero);
+      //             if (numero === 0) {
+      //                 break miEtiqueta;
+      //             }
+      //         }   
+      //     }
+      // }
+    </script>
+  </body>
+</html>
