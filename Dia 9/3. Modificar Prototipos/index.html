@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <title>Modificar Prototipos</title>
+</head>
+<body>
+  <script>
+    function Libro(autor, titulo, cantPaginas){
+      this.autor = autor;
+      this.titulo = titulo;
+      this.cantPaginas = cantPaginas;
+    }
+
+    let libro1 = new Libro("Stephen King", "Carrie", 524);
+
+    Libro.prototype.abrirLibro = function(){
+      alert(this.titulo + " ha sido abierto");
+    }
+
+    Libro.prototype.edicion = this.edicion; // Esta es una mala manera de crear propiedades ya que no se puede definir un valor, tocaria que fuera quemado
+
+    function UnObjeto(a){
+      this.a = a;
+    }
+
+    UnObjeto.prototype.metodo1 = function metodo1(){};
+    UnObjeto.prototype.metodo2 = function metodo2(){};
+
+  </script>
+</body>
+</html>
