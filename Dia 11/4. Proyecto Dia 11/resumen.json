@@ -1,0 +1,16 @@
+{
+  "banco": "Banco Cardenal",
+  "sucursal": "Galerías, Chapinero",
+  "titular": "Bejarano Luis Carlos",
+  "nro_cuenta": "3254647575-568",
+  "saldo": [{
+    "moneda": "USD",
+    "monto": 234.08
+  },
+  {
+    "moneda": "EUR",
+    "monto": 345.42
+  }],
+  "cbu": "43564765785675665",
+  "abierto": "31/10/2000"
+}
